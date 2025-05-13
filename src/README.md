@@ -20,13 +20,21 @@ Y realiza las siguientes etapas del proceso de compilación:
 
 compilador/
 ├── src/
+
 │ ├── Main.java # Punto de entrada del programa
+
 │ ├── lexers/
+
 │ │ ├── Lexer.java # Analizador léxico
+
 │ │ └── Token.java # Definición de tokens
+
 │ └── parser/
+
 │ └── Parser.java # Analizador sintáctico y evaluador
+
 ├── out/ # Carpeta de salida generada al compilar
+
 └── README.md # Instrucciones del proyecto
 
 
@@ -38,7 +46,7 @@ compilador/
   - Java Extension Pack
   - Language Support for Java(TM) by Red Hat
 
-##  Cómo compilar y ejecutar
+##  Cómo compilar y ejecutar (Desde windows)
 
 ### 1.Clona el repositorio
 
