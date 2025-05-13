@@ -40,15 +40,23 @@ compilador/
 
 ##  Cómo compilar y ejecutar
 
-### 1. Compilar
+### 1.Clona el repositorio
 
-Desde la raíz del proyecto(dentro del compilador):
+```bash
+git clone https://github.com/Zhaitho/Proyecto.git
+cd Proyecto
+
+
+
+### 2. Compilar
+
+Desde la raíz del proyecto:
 
 ```bash
 javac -d out src\Main.java src\lexers\Lexer.java src\lexers\Token.java src\parser\Parser.java
 
 
-### 2. Ejecutar
+### 3. Ejecutar
 
 java -cp out Main
 
