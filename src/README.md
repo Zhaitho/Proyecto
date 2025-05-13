@@ -48,7 +48,7 @@ Desde la raíz del proyecto(dentro del compilador):
 javac -d out src\Main.java src\lexers\Lexer.java src\lexers\Token.java src\parser\Parser.java
 
 
-#### 2. Ejecutar
+### 2. Ejecutar
 
 java -cp out Main
 
